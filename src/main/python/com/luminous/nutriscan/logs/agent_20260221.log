@@ -1,0 +1,10 @@
+2026-02-21 23:37:44,858 - INFO - Coze client initialized successfully
+2026-02-21 23:37:44,859 - INFO - Starting new workflow execution session
+2026-02-21 23:37:47,990 - INFO - User input (dish name): None
+2026-02-21 23:38:47,635 - INFO - User input (image path): http://118.195.219.166:9000/nutriscan/1771688174729_temp_image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minioadmin%2F20260221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260221T153614Z&X-Amz-Expires=7200&X-Amz-SignedHeaders=host&X-Amz-Signature=0dbb8cbfc737ad177d0a59e5167a7765333a0b00b524c11fbe928cc476634217
+2026-02-21 23:38:49,316 - INFO - User input (target audience): 普通成年人
+2026-02-21 23:38:49,318 - INFO - Prepared workflow parameters: {'input': '', 'pic': 'http://118.195.219.166:9000/nutriscan/1771688174729_temp_image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minioadmin%2F20260221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260221T153614Z&X-Amz-Expires=7200&X-Amz-SignedHeaders=host&X-Amz-Signature=0dbb8cbfc737ad177d0a59e5167a7765333a0b00b524c11fbe928cc476634217', 'person': '普通成年人'}
+2026-02-21 23:38:49,318 - INFO - Executing workflow with ID: 7605603074233466880
+2026-02-21 23:39:16,732 - INFO - HTTP Request: POST https://api.coze.cn/v1/workflow/run "HTTP/1.1 200 OK"
+2026-02-21 23:39:16,734 - INFO - Workflow executed successfully in 27.42 seconds
+2026-02-21 23:39:16,734 - INFO - Workflow result received: {"output":"根据您提供的饮食信息分析，当前未发现明确的食物过敏、禁忌或冲突风险，总体评估为安全。这意味着您目前的饮食搭配在常见风险层面没有显著问题。\n\n我们建议您继续保持对饮食安全的关注，并遵循均衡饮食的原则。在日常生活中，可以注意保证食物的多样性，以摄取全面的营养。同时，有意识地控制总热量、盐、糖以及饱和脂肪的摄入量，这对维持长期健康有益。\n\n总而言之，您的饮食计划目前看来是安全的。请保持这份良好的饮食意识，并根据自身感受和健康目标进行适时调整。"}...
